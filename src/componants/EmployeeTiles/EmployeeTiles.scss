@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins&display=swap');
+
+.employee-tile {
+    background-color: rgb(235, 84, 112);
+    width: 400px;
+
+
+    &__name {
+        display: flex;
+        justify-content: center;
+        font-family: "Hedvig Letters Serif";
+        font-size: 40px;
+
+    }
+
+    &__role {
+        display: flex;
+        justify-content: center;
+        font-family: "Hedvig Letters Serif";
+        font-size: 30px;
+    }
+}
+

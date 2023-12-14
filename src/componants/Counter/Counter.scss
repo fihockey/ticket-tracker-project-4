@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins&display=swap');
+
+
+.counter-tile {
+    background-color: rgb(239, 167, 187);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Poppins";
+    color: black;
+
+
+    &__title {
+       font-size: 18px; 
+       
+    }
+
+
+    &__increment {
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+        
+    }
+
+
+    &__decrement {
+        border-radius: 50%;
+        height: 40px;
+        width: 40px;
+        font-size: 30px;
+
+    }
+}

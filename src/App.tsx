@@ -1,5 +1,5 @@
-import EmployeeTile from './componants/EmployeeTiles/EmployeeTiles'
 import { useState } from 'react'
+import EmployeeTile from './componants/EmployeeTiles/EmployeeTiles'
 import team from './componants/data/data'
 import './App.scss'
 

@@ -11,14 +11,13 @@ const EmployeeTile = ({ name, role }: EmployeeTileProps) => {
 
 
     return (
-        <div className="employee-tile">
-            <h1>{name}</h1>
-            <h2>{role}</h2>
-            <div>
-                <Counter/>
+            <div className="employee-tile">
+                <h1 className="employee-tile__name">{name}</h1>
+                <h2 className="employee-tile__role">{role}</h2>
+                <div>
+                    <Counter/>
+                </div>
             </div>
-
-        </div>
     )
 }
 

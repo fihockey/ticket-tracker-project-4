@@ -15,16 +15,16 @@ const Counter = () => {
 
     return (
         <div className="counter-tile">
-            <h4>Counter</h4>
+            <h4 className="counter-tile__title">Counter</h4>
             <button
-            className="counter__decrement"
+            className="counter-tile__decrement"
             aria-label="Decrement"
             onClick={handleDecrement}
             > - </button>
 
             <p>{counter}</p>
 
-            <button className="counter__increment"
+            <button className="counter-tile__increment"
             aria-label="Increment"
             onClick={handleIncrement}
             > + </button>
