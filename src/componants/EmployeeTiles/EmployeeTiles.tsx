@@ -1,4 +1,3 @@
-import { team } from "../data/data"
 import Counter from "../Counter/Counter"
 import "./EmployeeTiles.scss"
 
@@ -12,8 +11,10 @@ const EmployeeTile = ({ name, role }: EmployeeTileProps) => {
 
     return (
             <div className="employee-tile">
-                <h1 className="employee-tile__name">{name}</h1>
-                <h2 className="employee-tile__role">{role}</h2>
+                <div className="employee">
+                    <h1 className="employee-tile__name">{name}</h1>
+                    <h2 className="employee-tile__role">{role}</h2>
+                </div>
                 <div>
                     <Counter/>
                 </div>
